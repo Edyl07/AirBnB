@@ -13,7 +13,8 @@ import {
   StatusBar,
 } from 'react-native';
 
-import HomeScreen from './src/screens/Home/Index';
+// import HomeScreen from './src/screens/Home/Index';
+import Post from './src/components/Post/Index'
 
 
 
@@ -24,7 +25,8 @@ const App: () => Node = () => {
     <>
       <StatusBar barStyle={'dark-content'} />
       <SafeAreaView>
-          <HomeScreen />
+          {/* <HomeScreen /> */}
+          <Post />
       </SafeAreaView>
     </>
   );
